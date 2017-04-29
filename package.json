@@ -1,7 +1,7 @@
 {
   "name": "Magic-Mirror-Module-DHT-Sensor",
   "version": "1.0.0",
-  "description": "Temperature and humidity sensor module for the Magic Mirror.",
+  "description": "Temperature and humidity module for MagicMirror (read from file)",
   "keywords": [
     "magic mirror",
     "smart mirror",
@@ -9,7 +9,7 @@
     "temperature",
     "humidity"
   ],
-  "author": "BP",
+  "author": "ABI",
   "scripts": {
     "postinstall": "node_modules/.bin/electron-rebuild -e ../../node_modules/electron-prebuilt"
   },
